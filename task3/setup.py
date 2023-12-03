@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'task3a = task3.task3a:main'
+            'task3a = task3.task3a:main', 
+            'task3a2 = task3.task3a2:main'
         ],
     },
 )
